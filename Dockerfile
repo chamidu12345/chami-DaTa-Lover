@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN https://github.com/chamidu12345/chami-DaTa-Lover
+RUN https://github.com/chamidu12345/chami-DaTa-Lover /root/chami-DaTa-Lover
 WORKDIR /root/WhatsAsenaPublic/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
